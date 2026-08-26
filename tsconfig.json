@@ -8,8 +8,7 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "allowImportingTsExtensions": true,
-    "skipLibCheck": true,
-    "outDir": "./dist"
+    "skipLibCheck": true
   },
   "include": ["test/**/*.ts"]
 }
