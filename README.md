@@ -1,0 +1,1 @@
+# ts-qa-ci-template
