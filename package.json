@@ -9,8 +9,8 @@
     "format:fix": "prettier --write \"test/**/*.ts\"",
     "check": "npm run lint && npm run format",
     "check:fix": "npm run lint:fix && npm run format:fix",
-    "test:api": "ts-node test/api/placeholder.api.ts",
-    "test:ui": "ts-node test/ui/placeholder.ui.ts",
+    "test:api": "tsx test/api/placeholder.api.ts",
+    "test:ui": "tsx test/ui/placeholder.ui.ts",
     "test": "npm run test:api && npm run test:ui"
   },
   "description": "",
