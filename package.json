@@ -1,0 +1,45 @@
+{
+  "name": "ts-qa-automation-sandbox",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint test/**/*.ts",
+    "lint:fix": "eslint test/**/*.ts --fix",
+    "format": "prettier --check \"test/**/*.ts\"",
+    "format:fix": "prettier --write \"test/**/*.ts\"",
+    "check": "npm run lint && npm run format",
+    "check:fix": "npm run lint:fix && npm run format:fix",
+    "test:api": "tsx test/api/placeholder.api.ts",
+    "test:ui": "tsx test/ui/placeholder.ui.ts",
+    "test": "npm run test:api && npm run test:ui"
+  },
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yasya23/ts-qa-ci-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yasya23/ts-qa-ci-template/issues"
+  },
+  "homepage": "https://github.com/Yasya23/ts-qa-ci-template#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.3.0",
+    "eslint": "^10.9.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "globals": "^17.11.0",
+    "jiti": "^2.7.0",
+    "prettier": "3.9.6",
+    "tsx": "^4.23.12",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.68.0"
+  }
+}
